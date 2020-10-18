@@ -1,6 +1,14 @@
+/*
+ * @Author: bingwen
+ * @Date: 2020-10-10 23:18:38
+ * @LastEditors: bingwen
+ * @LastEditTime: 2020-10-18 16:38:27
+ * @Description: 
+ * @FilePath: /vue3.0/vue3-source/docusaurus.config.js
+ */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '前端训练营',
+  tagline: '',
   url: 'https://shortbaby.github.io',
   baseUrl: '/vue3-source/',
   onBrokenLinks: 'throw',
@@ -9,7 +17,7 @@ module.exports = {
   projectName: 'vue3-source', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '前端训练营',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,12 +26,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'vue3 源码解密',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        // {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://shortbaby.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,50 +41,38 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '解读系列',
           items: [
             {
-              label: 'Style Guide',
+              label: 'vue3',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
           ],
         },
         {
-          title: 'Community',
+          title: '前端框架',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'vue3-next',
+              href: 'https://vue3js.cn/docs/zh/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: 'React',
+              href: 'https://react.docschina.org/',
+            }
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/shortbaby',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bingwen FrontEnd Learning. All rights reserved`,
     },
   },
   presets: [
@@ -89,12 +85,12 @@ module.exports = {
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

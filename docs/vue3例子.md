@@ -1,6 +1,7 @@
 ---
-id: mdx
-title: Powered by MDX
+id: 一个例子
+title: 一个例子
+sidebar_label: 一个例子
 ---
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).

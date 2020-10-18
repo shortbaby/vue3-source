@@ -2,9 +2,9 @@
  * @Author: bingwen
  * @Date: 2020-10-10 23:18:38
  * @LastEditors: bingwen
- * @LastEditTime: 2020-10-11 00:20:50
+ * @LastEditTime: 2020-10-18 16:41:20
  * @Description: 
- * @FilePath: /vue3.0/vuenext-doc/src/pages/index.js
+ * @FilePath: /vue3.0/vue3-source/src/pages/index.js
  */
 import React from 'react';
 import clsx from 'clsx';
@@ -17,27 +17,27 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    // imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    // description: (
+    //   <>
+    //     Docusaurus was designed from the ground up to be easily installed and
+    //     used to get your website up and running quickly.
+    //   </>
+    // ),
   },
   {
     title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    // imageUrl: 'img/undraw_docusaurus_tree.svg',
+    // description: (
+    //   <>
+    //     Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+    //     ahead and move your docs into the <code>docs</code> directory.
+    //   </>
+    // ),
   },
   {
     title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    // imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -80,12 +80,12 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              开始
             </Link>
           </div>
         </div>
       </header>
-      <main>
+      {/* <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -97,7 +97,7 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
+      </main> */}
     </Layout>
   );
 }
