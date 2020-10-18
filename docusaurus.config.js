@@ -1,12 +1,12 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://shortbaby.github.io',
+  baseUrl: '/vue3-source/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'shortbaby', // Usually your GitHub org/user name.
+  projectName: 'vue3-source', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
