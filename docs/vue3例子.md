@@ -1,5 +1,5 @@
 ---
-id: 一个例子
+id: doc4
 title: 一个例子
 sidebar_label: 一个例子
 ---

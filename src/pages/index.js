@@ -2,7 +2,7 @@
  * @Author: bingwen
  * @Date: 2020-10-10 23:18:38
  * @LastEditors: bingwen
- * @LastEditTime: 2020-10-18 16:41:20
+ * @LastEditTime: 2020-10-18 17:11:54
  * @Description: 
  * @FilePath: /vue3.0/vue3-source/src/pages/index.js
  */
@@ -67,8 +67,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`秉文前端训练营`}
+      description="vue3、React 技术栈相关框架源码解密">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

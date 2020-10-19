@@ -2,7 +2,7 @@
  * @Author: bingwen
  * @Date: 2020-10-10 23:18:38
  * @LastEditors: bingwen
- * @LastEditTime: 2020-10-18 16:38:27
+ * @LastEditTime: 2020-10-18 17:12:45
  * @Description: 
  * @FilePath: /vue3.0/vue3-source/docusaurus.config.js
  */
@@ -19,7 +19,7 @@ module.exports = {
     navbar: {
       title: '前端训练营',
       logo: {
-        alt: 'My Site Logo',
+        alt: '秉文前端训练营',
         src: 'img/logo.svg',
       },
       items: [
