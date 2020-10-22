@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: 前言
-sidebar_label: 前言
-slug: /
+id: demo
+title: demo
+sidebar_label: demo
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -90,7 +89,7 @@ Reference-style: ![alt text][logo]
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
-![img](../static/img/logo.svg)
+![img](../static/img/vue3.logo.png)
 
 ---
 

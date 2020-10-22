@@ -2,9 +2,9 @@
  * @Author: bingwen
  * @Date: 2020-10-10 23:18:38
  * @LastEditors: bingwen
- * @LastEditTime: 2020-10-18 17:12:45
+ * @LastEditTime: 2020-10-22 23:24:10
  * @Description: 
- * @FilePath: /vue3.0/vue3-source/docusaurus.config.js
+ * @FilePath: /mobx/Users/xuguanlong/workspace/vue3.0/vue3-source/docusaurus.config.js
  */
 module.exports = {
   title: '前端训练营',
@@ -12,16 +12,16 @@ module.exports = {
   url: 'https://shortbaby.github.io',
   baseUrl: '/vue3-source/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/vue3.logo.png',
   organizationName: 'shortbaby', // Usually your GitHub org/user name.
   projectName: 'vue3-source', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: '前端训练营',
-      logo: {
-        alt: '秉文前端训练营',
-        src: 'img/logo.svg',
-      },
+      // title: '前端训练营',
+      // logo: {
+      //   alt: '秉文前端训练营',
+      //   src: 'img/logo.svg',
+      // },
       items: [
         {
           to: 'docs/',
