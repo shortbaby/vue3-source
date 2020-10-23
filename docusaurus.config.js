@@ -2,7 +2,7 @@
  * @Author: bingwen
  * @Date: 2020-10-10 23:18:38
  * @LastEditors: bingwen
- * @LastEditTime: 2020-10-22 23:24:10
+ * @LastEditTime: 2020-10-23 02:43:56
  * @Description: 
  * @FilePath: /mobx/Users/xuguanlong/workspace/vue3.0/vue3-source/docusaurus.config.js
  */
@@ -82,8 +82,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         // blog: {
         //   showReadingTime: true,
